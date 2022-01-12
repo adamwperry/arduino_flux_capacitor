@@ -1,1 +1,20 @@
-# arduino_flux_capacitor
+# Arduino_Flux_Capacitor
+
+Just a simple project for the strobing lights using arduino. 
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
+
+THIS SOFTWARE IS NOT RESPONSIBLE FOR ANY DAMAGE YOU MAY CAUSE TO YOUR ARDUINO OR ANY OTHER DEVICE.
+
+
+Take this project and do what you would like. Modify it, create a branch to this project and ask to merge it in, or just fork it.  
+
+
+Schematic
+----
+
+Left button changes colors.
+
+Right button changes light strobe speed.
+
+![image](https://user-images.githubusercontent.com/1865383/149073450-a55bf651-61ce-4825-b558-27b63713b87d.png)
