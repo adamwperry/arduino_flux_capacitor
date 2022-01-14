@@ -29,14 +29,15 @@ int arrColors[11][3] = {
 void setup()
 {
   pinMode(13, OUTPUT);
-  pinMode(2, INPUT);
+  pinMode(5, INPUT);
+  pinMode(4, INPUT);
 
   pixels.begin(); // Initializes the NeoPixel library.
 }
 
 void loop()
 {
-  if (digitalRead(2) == HIGH)
+  if (digitalRead(4) == HIGH)
   {
     digitalWrite(13, HIGH);
     buttonPushCounter++;
@@ -50,8 +51,8 @@ void loop()
   {
     digitalWrite(13, LOW);
   }
-
-  if (digitalRead(4) == HIGH)
+  
+  if (digitalRead(5) == HIGH)
   {
     digitalWrite(13, HIGH);
     colorButtonPushCounter++;
